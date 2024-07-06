@@ -14,7 +14,7 @@ function Home() {
   let contact ="mailto:kalamshar786@gmail.com";
   return (
     <div className="particles-bg">
-      {/* <ParticlesBg type="cobweb" style={{ backgroundColor: '#f0f0f0' }} num={50} color="#000000" bg={true} /> */}
+
       <div className="py-5">
         <Container style={{ marginTop: "110px" }}>
           <Row className="align-items-center">
@@ -58,7 +58,7 @@ function Home() {
                     <a href="#"><FaDiscord /></a>
                   </li> */}
                   <li className="list-inline-item">
-                    <a href="https://github.com/Azadak12"><FaGithubSquare style={{ color: "black",border:"2px solid #E48400",borderRadius:"30px", padding:"5px" }} /></a>
+                    <a className='social-icon' href="https://github.com/Azadak12"><FaGithubSquare style={{ color: "black",border:"2px solid #E48400",borderRadius:"30px", padding:"5px" }} /></a>
                   </li>
                   <li className="list-inline-item">
                     <a href="https://api.whatsapp.com/send?phone=+923097502122"><FaWhatsapp style={{ color: "green",border:"2px solid #E48400",borderRadius:"30px", padding:"7px" }} /></a>
