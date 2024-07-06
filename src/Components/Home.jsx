@@ -3,7 +3,7 @@ import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import img from "../assets/oie_sNoQcpGSCzX9.png";
 import { FaLinkedin, FaFacebook, FaTwitter, FaInstagram, FaDiscord } from "react-icons/fa";
 import { ReactTyped } from "react-typed";
-import ParticlesBg from 'particles-bg';
+// import ParticlesBg from 'particles-bg';
 import { FaGithubSquare } from "react-icons/fa";
 import { Fade, Zoom, Bounce } from 'react-reveal';
 import { FaWhatsapp } from "react-icons/fa6";
@@ -14,7 +14,7 @@ function Home() {
   let contact ="mailto:kalamshar786@gmail.com";
   return (
     <div className="particles-bg">
-      <ParticlesBg type="cobweb" style={{ backgroundColor: '#f0f0f0' }} num={50} color="#000000" bg={true} />
+      {/* <ParticlesBg type="cobweb" style={{ backgroundColor: '#f0f0f0' }} num={50} color="#000000" bg={true} /> */}
       <div className="py-5">
         <Container style={{ marginTop: "110px" }}>
           <Row className="align-items-center">
