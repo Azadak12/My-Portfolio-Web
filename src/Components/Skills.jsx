@@ -10,7 +10,7 @@ import { RiTeamLine } from 'react-icons/ri';
 import { CiTimer } from 'react-icons/ci';
 import { GiTeamDowngrade } from 'react-icons/gi';
 import { Fade } from 'react-reveal';
-import './Style.css';
+import '../style/Style.css';
 
 function Skills() {
   return (

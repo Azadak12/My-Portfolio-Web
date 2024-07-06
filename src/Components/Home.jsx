@@ -8,7 +8,7 @@ import { FaGithubSquare } from "react-icons/fa";
 import { Fade, Zoom, Bounce } from 'react-reveal';
 import { FaWhatsapp } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
-import "./Style.css";
+import '../style/Style.css';
 
 function Home() {
   let contact ="mailto:kalamshar786@gmail.com";

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Form, Button, Container, Row, Col } from 'react-bootstrap';
-import './Style.css'; // Ensure to import your stylesheet
+import '../style/Style.css';
 
 function Contact() {
   return (

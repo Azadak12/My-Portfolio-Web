@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
-import './Style.css';
+import '../style/Style.css';
 import { a } from 'react-spring';
 
 function About() {

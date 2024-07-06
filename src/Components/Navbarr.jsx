@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-scroll';
 import logo from "../assets/oie_sNoQcpGSCzX9.png"
-import "./Style.css";
+import '../style/Style.css';
 
 function Navbarr() {
   return (
