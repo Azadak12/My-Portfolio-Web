@@ -1,0 +1,150 @@
+
+.navbar {
+  z-index: 1000; 
+}
+
+.content {
+  padding-top: 100px; /
+}
+li {
+  list-style: none;
+  margin-top: 70px;
+}
+ul{
+  display: flex;
+  margin-left: 45px;
+ 
+}
+li a{
+  margin: 5px;
+  font-size: 60px;
+ cursor: pointer;
+
+}
+.nav-link.active {
+  text-decoration: underline;
+}
+body{
+  background-color:#1E2952;
+}
+.card {
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  background-color: #f0f0f0;
+}
+
+.card-header {
+  background-color: #343a40;
+  color: #ffffff;
+  text-align: center;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.25rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.list-group-item:hover {
+  background-color: #e9ecef;
+  color: #343a40;
+}
+
+.containerr {
+
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+ 
+}
+.navbar{
+  
+
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-family: 'Arial', sans-serif;
+  font-size: 2.5rem;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  font-size: 1.75rem;
+  color: #32cd32;
+  margin-top: 2rem;
+}
+
+.text-content {
+  font-size: 1.25rem;
+  color: #FDF5E6;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.text-content br {
+  margin-bottom: 1rem;
+}
+
+
+.contact-title {
+  color: #ffffff;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-form-wrapper {
+  width: 100%;
+  max-width: 600px;
+  background: #1F305E;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-input {
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  transition: border-color 0.3s;
+}
+
+.contact-input:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 5px rgba(128, 189, 255, 0.5);
+}
+
+.contact-button {
+  width: 100%;
+  background-color: #6a11cb;
+  border-color: #6a11cb;
+  padding: 0.75rem;
+  font-size: 1.25rem;
+  border-radius: 10px;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.contact-button:hover {
+  background-color: #2575fc;
+  border-color: #2575fc;
+}
