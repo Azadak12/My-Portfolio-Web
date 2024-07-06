@@ -25,7 +25,7 @@ function Contact() {
               <Form.Control type="text" placeholder="Subject" required className="contact-input" />
             </Form.Group>
             <Form.Group controlId="formMessage">
-              <Form.Control as="textarea" rows={4} placeholder="Your Message" required className="contact-input" />
+              <Form.Control as="textarea" rows={4} placeholder="Message" required className="contact-input" />
             </Form.Group>
             <Button className='contact-button' variant="primary" type="submit">
               Submit
