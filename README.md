@@ -1,4 +1,4 @@
-**React + Vite Portfolio Project**
+**React + Vite Portfolio Project** <br>
 This project is a portfolio website created using React, JSX, and Bootstrap, set up with Vite for an optimized development experience.
 
 **Overview**
