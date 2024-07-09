@@ -32,7 +32,7 @@ function Projects() {
           <Col  xs={12} md={4} className='mt-4'>
             <Fade bottom delay={200}>
               <Card>
-                <Card.Img variant="top" src={crud} style={{height:"180px"}}/>
+                <Card.Img variant="top" src={crud} style={{height:"160px"}}/>
                 <Card.Header className='text-center'>CRUD operations applications</Card.Header>
                 <Card.Body>
                   <Card.Text>
@@ -50,7 +50,7 @@ function Projects() {
           <Col xs={12} md={4} className='mt-4'>
             <Fade bottom delay={400}>
               <Card>
-                <Card.Img variant="top" src={counter} style={{height:"205px"}} />
+                <Card.Img variant="top" src={counter} style={{height:"160px"}} />
                 <Card.Header className='text-center'>Counter</Card.Header>
                 <Card.Body>
                   <Card.Text>
